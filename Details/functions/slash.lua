@@ -172,7 +172,7 @@ function _detalhes:ParseParameters(msg, editbox)
 		self:OpenNewsWindow()
 
 	elseif (command == "PandaWoW Discord") then
-		self:CopyPaste ("https://discord.com/invite/m3YyWq7")
+		self:CopyPaste ("https://discord.gg/m3YyWq7")
 
 	elseif (command == "debugwindow") then
 
