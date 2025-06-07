@@ -171,8 +171,8 @@ function _detalhes:ParseParameters(msg, editbox)
 	elseif (command == Loc ["STRING_SLASH_CHANGES"] or command == Loc ["STRING_SLASH_CHANGES_ALIAS1"] or command == Loc ["STRING_SLASH_CHANGES_ALIAS2"] or command == "news" or command == "updates") then
 		self:OpenNewsWindow()
 
-	elseif (command == "discord") then
-		self:CopyPaste ("https://discord.gg/UXSc7nt")
+	elseif (command == "PandaWoW Discord") then
+		self:CopyPaste ("https://discord.com/invite/m3YyWq7")
 
 	elseif (command == "debugwindow") then
 

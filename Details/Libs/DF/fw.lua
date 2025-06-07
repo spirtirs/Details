@@ -32,8 +32,8 @@ SMALL_NUMBER = 0.000001
 ALPHA_BLEND_AMOUNT = 0.8400251
 
 DF.AuthorInfo = {
-	Name = "Terciob",
-	Discord = "https://discord.gg/UXSc7nt",
+	Name = "PandaWoW",
+	Discord = "https://discord.com/invite/m3YyWq7",
 }
 
 function DF.UnitGroupRolesAssigned (unitId)
