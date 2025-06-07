@@ -1576,7 +1576,7 @@ L["STRING_UNLOCK"] = [=[Разгруппировать окна
  в этой кнопке]=]
 L["STRING_UNLOCK_WINDOW"] = "разблокировать"
 L["STRING_UPTADING"] = "обновление"
-L["STRING_VERSION_AVAILABLE"] = "Вышла новая версия, скачать её можно в AddonUpdater либо в https://github.com/spirtirs/Details"
+L["STRING_VERSION_AVAILABLE"] = "Вышла новая версия, скачать её можно в лаунчере либо в https://github.com/spirtirs/Details"
 L["STRING_VERSION_UPDATE"] = "новая версия: что изменилось? щелкните сюда"
 L["STRING_VOIDZONE_TOOLTIP"] = "Урон и время"
 L["STRING_WAITPLUGIN"] = [=[ожидание
