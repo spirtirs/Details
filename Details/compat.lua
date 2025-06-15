@@ -12,6 +12,8 @@ function GetCurrentMapAreaID()
 end
 ]]
 
+
+
 if not C_Timer or C_Timer._version ~= 2 then
 	local setmetatable = setmetatable
 	local type = type
@@ -27,14 +29,21 @@ if not C_Timer or C_Timer._version ~= 2 then
 		__metatable = true
 	}
 
+
 	local waitTable = {}
 	local waitFrame = TimerFrame or CreateFrame("Frame", "TimerFrame", UIParent)
 	waitFrame:SetScript("OnUpdate", function(self, elapsed)
 		local total = #waitTable
 		local i = 1
 
+
 		while i <= total do
 			local ticker = waitTable[i]
+
+			if type(ticker._delay) == 'table' then
+				return
+			end
+	
 
 			if ticker._cancelled then
 				tremove(waitTable, i)
@@ -55,7 +64,7 @@ if not C_Timer or C_Timer._version ~= 2 then
 				elseif ticker._remainingIterations == 1 then
 					tremove(waitTable, i)
 					total = total - 1
-				end
+				end 
 			end
 		end
 
@@ -63,6 +72,8 @@ if not C_Timer or C_Timer._version ~= 2 then
 			self:Hide()
 		end
 	end)
+
+
 
 	local function AddDelayedCall(ticker, oldTicker)
 		if oldTicker and type(oldTicker) == "table" then
