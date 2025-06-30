@@ -6886,7 +6886,7 @@ end
 
 function DF:BuildStatusbarAuthorInfo (f, addonBy, authorsNameString)
 
-	local authorName = DF:CreateLabel (f, "" .. (addonBy or "An addon by") .. "|cFFFFFFFF" .. (authorsNameString or "Terciob") .. "|r")
+	local authorName = DF:CreateLabel (f, "" .. (addonBy or "edited by") .. "|cFFFFFFFF" .. (authorsNameString or "Spirtirs") .. "|r")
 	authorName.textcolor = "silver"
 	local discordLabel = DF:CreateLabel (f, "Discord: ")
 	discordLabel.textcolor = "silver"
