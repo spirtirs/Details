@@ -794,9 +794,10 @@ do
 	_detalhes.AbsorbSpells = {
 		-- Death Knight
 		[48707] = 5, -- Anti-Magic Shell (DK) Rank 1 -- Does not currently seem to show tracable combat log events. It shows energizes which do not reveal the amount of damage absorbed
-		[51052] = 10, -- Anti-Magic Zone (DK)( Rank 1 (Correct spellID?)
+		[51052] = 5, -- Anti-Magic Zone (DK)( Rank 1 (Correct spellID?)
+		[77535] = 5, -- Blood Shield
 			-- Does DK Spell Deflection show absorbs in the CL?
-		[77535] = 10, -- Blood Shield (DK)
+		[77535] = 5, -- Blood Shield (DK)
 		-- Druid
 		[62606] = 10, -- Savage Defense proc. (Druid) Tooltip of the original spell doesn't clearly state that this is an absorb, but the buff does.
 		[135597] = 10, -- Tooth and Claw (tokens)
