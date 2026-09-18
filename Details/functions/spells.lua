@@ -146,6 +146,7 @@ do
 		[16166] = 262, -- Elemental Mastery
 		[51490] = 262, -- Thunderstorm
 		[88767] = 262, -- Fulmination
+		[145379] = 262, -- Nature's Barrier
 
 		-- Enhancement Shaman:
 		[51533] = 263, -- Feral Spirit
@@ -218,6 +219,8 @@ do
 		[115294] = 270, -- Mana Tea
 		[115175] = 270, -- Soothing Mist
 		[116670] = 270, -- Uplift
+		[145441] = 270, -- Yu'lon's Barrier
+		[116849] = 270, -- Life Cocoon
 
 
 
@@ -822,6 +825,11 @@ do
         [108366] = 265, -- Soul Leech
 		-- Warrior
 		[112048] = 73, -- Shield Barrier
+        -- Monk
+		[145441] = 270, -- Yu'lon's Barrier
+  		[116849] = 270, -- Life Cocoon
+  		-- Shaman
+		[145379] = 262, -- Nature's Barrier
 		-- Consumables
 		[29674] = 86400, -- Lesser Ward of Shielding
 		[29719] = 86400, -- Greater Ward of Shielding (these have infinite duration, set for a day here :P)
