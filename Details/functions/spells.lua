@@ -822,7 +822,8 @@ do
 		-- Warlock
 		[7812] = 30, -- Sacrifice (warlock)
 		[6229] = 30, -- Shadow Ward (warlock)
-        [108366] = 265, -- Soul Leech
+        [108366] = 30, -- Soul Leech
+        [6229] = 30, -- Twilight Ward
 		-- Warrior
 		[112048] = 73, -- Shield Barrier
         -- Monk
