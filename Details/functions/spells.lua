@@ -809,7 +809,7 @@ do
 		[62618] = 25, -- Power Word: Barrier
 		[81781] = 25, -- Power Word: Barrier
 		[109964] = 15, -- Spirit Shell
-		[112048] = 15, -- Impervious Shield
+		[112048] = 15, -- Shield Barrier / Impervious Shield
 		-- Warlock
 		[7812] = 30, -- Sacrifice (warlock)
 		[6229] = 30, -- Shadow Ward (warlock)
