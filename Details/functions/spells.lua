@@ -827,8 +827,8 @@ do
 		[112048] = 73, -- Shield Barrier
         -- Monk
 		[145441] = 270, -- Yu'lon's Barrier
-  		[116849] = 270, -- Life Cocoon
-  		-- Shaman
+		[116849] = 270, -- Life Cocoon
+		-- Shaman
 		[145379] = 262, -- Nature's Barrier
 		-- Consumables
 		[29674] = 86400, -- Lesser Ward of Shielding
