@@ -808,6 +808,7 @@ do
 		[47788] = 10, -- Guardian Spirit  (Priest) (50 nominal absorb, this may not show in the CL)
 		[62618] = 25, -- Power Word: Barrier
 		[81781] = 25, -- Power Word: Barrier
+		[109964] = 15, -- Spirit Shell
 		-- Warlock
 		[7812] = 30, -- Sacrifice (warlock)
 		[6229] = 30, -- Shadow Ward (warlock)
