@@ -40,6 +40,8 @@ do
 		[33745] = 104, -- Lacerate
 		[6807] = 104, -- Maul
 		[62606] = 104, -- Savage Defense
+    	[62606] = 104, -- Tooth and Claw
+    	[135597] = 104, -- Tooth and Claw absorb
 
 		-- Restoration Druid:
 		[100977] = 105, -- Harmony
@@ -84,6 +86,7 @@ do
 		[20053] = 65, -- Conviction
 		[86273] = 65, -- Illuminated Healing (mastery)
 		[85222] = 65, -- Light of Dawn
+    	[65148] = 65, -- Sacred Shield
 
 		-- Protection Paladin:
 		[88263] = 66, -- Hammer of the Righteous
@@ -158,6 +161,8 @@ do
 		-- Affliction :
 		[48181] = 265, -- Haunt
 		[30108] = 265, -- Unstable Affliction
+    	[108366] = 265, -- Soul Leech
+    
 
 		-- Demonology Warlock:
 		[30146] = 266, -- Summon Felguard
@@ -184,6 +189,7 @@ do
 		[49152] = 72, -- Titan's Grip Effect
 
 		-- Protection Warrior:
+    	[112048] = 73, -- Shield Barrie
 		[871] = 73, -- Shield Wall
 		[12975] = 73, -- Last Stand
 		[57823] = 73, -- Revenge
@@ -790,6 +796,7 @@ do
 		[77535] = 10, -- Blood Shield (DK)
 		-- Druid
 		[62606] = 10, -- Savage Defense proc. (Druid) Tooltip of the original spell doesn't clearly state that this is an absorb, but the buff does.
+		[135597] = 10, -- Tooth and Claw (tokens)
 		-- Mage
 		[11426] = 60, -- Ice Barrier (Mage) Rank 1
 		[1463] = 60, --  Mana shield (Mage) Rank 1
@@ -812,6 +819,9 @@ do
 		-- Warlock
 		[7812] = 30, -- Sacrifice (warlock)
 		[6229] = 30, -- Shadow Ward (warlock)
+        [108366] = 265, -- Soul Leech
+		-- Warrior
+		[112048] = 73, -- Shield Barrier
 		-- Consumables
 		[29674] = 86400, -- Lesser Ward of Shielding
 		[29719] = 86400, -- Greater Ward of Shielding (these have infinite duration, set for a day here :P)
