@@ -190,7 +190,7 @@ do
 		[49152] = 72, -- Titan's Grip Effect
 
 		-- Protection Warrior:
-    	[112048] = 73, -- Shield Barrie
+    	[112048] = 73, -- Shield Barrier
 		[871] = 73, -- Shield Wall
 		[12975] = 73, -- Last Stand
 		[57823] = 73, -- Revenge
@@ -810,16 +810,17 @@ do
 		[88063] = 6, -- Guarded by the Light
 		[96263] = 15, -- Sacred Shield
 		-- Priest
-		[17] = 30, -- Power Word: Shield (Priest) Rank 1
+		[17] = 12, -- Power Word: Shield (Priest) Rank 1
 		[47509] = 12, -- Divine Aegis (Priest) Rank 1
 		[47511] = 12,
 		[47515] = 12, -- Divine Aegis (Priest) Rank 3 (Some of these are not actual buff spellIDs)
 		[47753] = 12, -- Divine Aegis (Priest) Rank 1
 		[54704] = 12, -- Divine Aegis (Priest) Rank 1
-		[47788] = 10, -- Guardian Spirit  (Priest) (50 nominal absorb, this may not show in the CL)
-		[62618] = 25, -- Power Word: Barrier
-		[81781] = 25, -- Power Word: Barrier
-		[109964] = 15, -- Spirit Shell
+		[47788] = 12, -- Guardian Spirit  (Priest) (50 nominal absorb, this may not show in the CL)
+		[62618] = 12, -- Power Word: Barrier
+		[81781] = 12, -- Power Word: Barrier
+		[109964] = 12, -- Spirit Shell
+		[114908] = 12, -- Spirit Shell absorb
 		-- Warlock
 		[7812] = 30, -- Sacrifice (warlock)
 		[6229] = 30, -- Shadow Ward (warlock)
